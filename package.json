@@ -19,7 +19,15 @@
   },
   "homepage": "https://github.com/zplusfour/mdp#readme",
   "devDependencies": {
+    "@types/markdown-it": "^12.0.3",
+    "markdown-to-txt": "^1.0.1",
     "nodemon": "^2.0.12",
     "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/colors": "^1.2.1",
+    "colors": "^1.4.0",
+    "markdown-it": "^12.1.0",
+    "markdown-it-plain-text": "^0.2.1"
   }
 }
