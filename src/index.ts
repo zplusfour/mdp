@@ -1,12 +1,11 @@
 import fs from 'fs';
-import Scanner from './scanner';
+import removeMarkdown from 'markdown-to-txt';
 
 const main = () => {
   const f = process.argv[2];
   const fd = String(fs.readFileSync(f));
-  const scanner = new Scanner(fd);
 
-  process.stdout.write(scanner.scan());
+  return removeMarkdown(fd);
 };
 
-main()
+console.log(`${main()}`);
