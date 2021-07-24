@@ -1,4 +1,4 @@
-# [WIP] MDP
+# MDP
 MDP stands for **M**ark**d**own **P**reviewer, and it's job to preview your markdown files in your terminal.
 ***
 ## Installation
